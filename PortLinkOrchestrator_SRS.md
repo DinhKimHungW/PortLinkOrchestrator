@@ -1,7 +1,6 @@
 # Đặc tả Yêu cầu Phần mềm (SRS)
-**Dự án:** PortLink Orchestrator (Phiên bản 1.0 - Demo)
+**Dự án:** PortLink Orchestrator
 **Ngày tạo:** 29/10/2025
-**Người lập:** Gemini (Business Analyst)
 **Phiên bản:** 1.0
 
 ---
@@ -199,4 +198,5 @@ Kịch bản này dùng để kiểm thử và thuyết trình sản phẩm, ch�
     * (P-1) Notification Center hiển thị 2 log mới:
         1.  "10:05: Tàu A báo trễ 1h (Sự cố kỹ thuật)".
         2.  "10:05: Hệ thống tự động cập nhật lịch Tàu A và Tàu B do xung đột."
+
 * **Kết quả:** Demo thành công, chứng minh khả năng tự động điều phối lại toàn chuỗi.
