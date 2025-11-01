@@ -41,9 +41,11 @@ export default function useAuth() {
       try {
         const { remember, ...payload } = credentials;
         const data = await loginRequest(payload);
-        if (data?.access_token) {
-          persistToken(data.access_token, remember ?? true);
-          dispatch(setToken(data.access_token));
+        // Accept both { access_token } and { token }
+        const accessToken = data?.access_token || data?.token;
+        if (accessToken) {
+          persistToken(accessToken, remember ?? true);
+          dispatch(setToken(accessToken));
           await loadUser();
         }
         return data;

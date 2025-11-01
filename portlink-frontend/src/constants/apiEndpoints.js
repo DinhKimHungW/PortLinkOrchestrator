@@ -1,7 +1,7 @@
 const endpoints = {
   auth: {
     login: '/auth/login',
-    me: '/auth/me',
+    me: '/me',
   },
   schedule: {
     active: '/schedule/active',

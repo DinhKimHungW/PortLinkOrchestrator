@@ -1,0 +1,182 @@
+[
+  {
+    "logId": 20,
+    "timestamp": "2025-10-30T05:12:00Z",
+    "userId": 1,
+    "eventType": "SCHEDULE_ACTIVATED",
+    "description": "Schedule version 3 activated (Recalculation)",
+    "affected_assetId": null,
+    "affected_visitId": null
+  },
+  {
+    "logId": 19,
+    "timestamp": "2025-10-30T05:10:00Z",
+    "userId": 1,
+    "eventType": "SCHEDULE_VERSION_CREATED",
+    "description": "Schedule version 3 created (Recalculation)",
+    "affected_assetId": null,
+    "affected_visitId": null
+  },
+  {
+    "logId": 18,
+    "timestamp": "2025-10-30T04:58:00Z",
+    "userId": 2,
+    "eventType": "INCIDENT_REPORTED",
+    "description": "Incident 4 reported (Weather)",
+    "affected_assetId": null,
+    "affected_visitId": 8
+  },
+  {
+    "logId": 17,
+    "timestamp": "2025-10-30T04:40:00Z",
+    "userId": 1,
+    "eventType": "TASK_CREATED",
+    "description": "Task 30 created for visit 10",
+    "affected_assetId": 7,
+    "affected_visitId": 10
+  },
+  {
+    "logId": 16,
+    "timestamp": "2025-10-30T04:35:00Z",
+    "userId": 1,
+    "eventType": "TASK_CREATED",
+    "description": "Task 29 created for visit 10",
+    "affected_assetId": 4,
+    "affected_visitId": 10
+  },
+  {
+    "logId": 15,
+    "timestamp": "2025-10-30T04:30:00Z",
+    "userId": 1,
+    "eventType": "TASK_CREATED",
+    "description": "Task 28 created for visit 10",
+    "affected_assetId": 1,
+    "affected_visitId": 10
+  },
+  {
+    "logId": 14,
+    "timestamp": "2025-10-29T23:55:00Z",
+    "userId": 2,
+    "eventType": "TASK_CREATED",
+    "description": "Task 27 created for visit 9",
+    "affected_assetId": 13,
+    "affected_visitId": 9
+  },
+  {
+    "logId": 13,
+    "timestamp": "2025-10-29T23:10:00Z",
+    "userId": 2,
+    "eventType": "TASK_CREATED",
+    "description": "Task 26 created for visit 9",
+    "affected_assetId": 12,
+    "affected_visitId": 9
+  },
+  {
+    "logId": 12,
+    "timestamp": "2025-10-29T22:20:00Z",
+    "userId": 1,
+    "eventType": "INCIDENT_RESOLVED",
+    "description": "Incident 6 resolved",
+    "affected_assetId": 4,
+    "affected_visitId": null
+  },
+  {
+    "logId": 11,
+    "timestamp": "2025-10-29T21:48:00Z",
+    "userId": 2,
+    "eventType": "INCIDENT_REPORTED",
+    "description": "Incident 2 reported (CraneDown)",
+    "affected_assetId": 6,
+    "affected_visitId": null
+  },
+  {
+    "logId": 10,
+    "timestamp": "2025-10-29T21:15:00Z",
+    "userId": 2,
+    "eventType": "USER_LOGIN",
+    "description": "ops01 logged in",
+    "affected_assetId": null,
+    "affected_visitId": null
+  },
+  {
+    "logId": 9,
+    "timestamp": "2025-10-29T20:45:00Z",
+    "userId": 1,
+    "eventType": "SCHEDULE_VERSION_CREATED",
+    "description": "Schedule version 2 created (Manual adjustment)",
+    "affected_assetId": null,
+    "affected_visitId": null
+  },
+  {
+    "logId": 8,
+    "timestamp": "2025-10-29T19:05:00Z",
+    "userId": 2,
+    "eventType": "TASK_CREATED",
+    "description": "Task 21 created for visit 7",
+    "affected_assetId": 6,
+    "affected_visitId": 7
+  },
+  {
+    "logId": 7,
+    "timestamp": "2025-10-29T18:55:00Z",
+    "userId": 2,
+    "eventType": "TASK_CREATED",
+    "description": "Task 20 created for visit 7",
+    "affected_assetId": 2,
+    "affected_visitId": 7
+  },
+  {
+    "logId": 6,
+    "timestamp": "2025-10-29T18:15:00Z",
+    "userId": 2,
+    "eventType": "TASK_CREATED",
+    "description": "Task 19 created for visit 6",
+    "affected_assetId": 14,
+    "affected_visitId": 6
+  },
+  {
+    "logId": 5,
+    "timestamp": "2025-10-29T17:05:00Z",
+    "userId": 2,
+    "eventType": "TASK_CREATED",
+    "description": "Task 17 created for visit 6",
+    "affected_assetId": 5,
+    "affected_visitId": 6
+  },
+  {
+    "logId": 4,
+    "timestamp": "2025-10-29T14:55:00Z",
+    "userId": 1,
+    "eventType": "INCIDENT_REPORTED",
+    "description": "Incident 1 reported (ShipDelay)",
+    "affected_assetId": 1,
+    "affected_visitId": 4
+  },
+  {
+    "logId": 3,
+    "timestamp": "2025-10-29T12:20:00Z",
+    "userId": 1,
+    "eventType": "TASK_CREATED",
+    "description": "Task 11 created for visit 4",
+    "affected_assetId": 5,
+    "affected_visitId": 4
+  },
+  {
+    "logId": 2,
+    "timestamp": "2025-10-29T08:25:00Z",
+    "userId": 1,
+    "eventType": "INCIDENT_RESOLVED",
+    "description": "Incident 5 resolved",
+    "affected_assetId": null,
+    "affected_visitId": 2
+  },
+  {
+    "logId": 1,
+    "timestamp": "2025-10-28T05:00:00Z",
+    "userId": null,
+    "eventType": "SYSTEM_INIT",
+    "description": "Seed data created",
+    "affected_assetId": null,
+    "affected_visitId": null
+  }
+]

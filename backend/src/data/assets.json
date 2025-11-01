@@ -1,0 +1,86 @@
+[
+  {
+    "assetId": 1,
+    "name": "Berth Alpha",
+    "type": "Berth",
+    "status": "Active"
+  },
+  {
+    "assetId": 2,
+    "name": "Berth Bravo",
+    "type": "Berth",
+    "status": "Active"
+  },
+  {
+    "assetId": 3,
+    "name": "Berth Charlie",
+    "type": "Berth",
+    "status": "Maintenance"
+  },
+  {
+    "assetId": 4,
+    "name": "Gantry Crane Atlas",
+    "type": "Crane",
+    "status": "Active"
+  },
+  {
+    "assetId": 5,
+    "name": "Gantry Crane Borealis",
+    "type": "Crane",
+    "status": "Active"
+  },
+  {
+    "assetId": 6,
+    "name": "Gantry Crane Cygnus",
+    "type": "Crane",
+    "status": "Maintenance"
+  },
+  {
+    "assetId": 7,
+    "name": "Yard Tractor 07",
+    "type": "Vehicle",
+    "status": "Active"
+  },
+  {
+    "assetId": 8,
+    "name": "Yard Tractor 12",
+    "type": "Vehicle",
+    "status": "Active"
+  },
+  {
+    "assetId": 9,
+    "name": "Yard Tractor 19",
+    "type": "Vehicle",
+    "status": "OutOfService"
+  },
+  {
+    "assetId": 10,
+    "name": "Warehouse North Dock",
+    "type": "Warehouse",
+    "status": "Active"
+  },
+  {
+    "assetId": 11,
+    "name": "Tugboat Titan",
+    "type": "Support",
+    "status": "Active"
+  },
+  {
+    "assetId": 12,
+    "name": "Tugboat Orion",
+    "type": "Support",
+    "status": "Idle"
+  },
+  {
+    "assetId": 13,
+    "name": "Reefer Rack East",
+    "type": "Storage",
+    "status": "Active"
+  },
+  {
+    "assetId": 14,
+    "name": "Gate Complex 3",
+    "type": "Gate",
+    "status": "Active"
+  }
+]

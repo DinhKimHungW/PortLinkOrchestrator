@@ -16,7 +16,8 @@ export default function LoginForm({ onSuccess }) {
     setError(null);
     try {
       const data = await login({ username, password, remember });
-      if (data?.access_token && onSuccess) {
+      const accessToken = data?.access_token || data?.token;
+      if (accessToken && onSuccess) {
         onSuccess(data);
       }
     } catch (err) {

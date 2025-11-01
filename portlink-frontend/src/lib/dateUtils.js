@@ -18,3 +18,17 @@ export function isWithinRange(date, start, end) {
   if ([value, startValue, endValue].some(Number.isNaN)) return false;
   return value >= startValue && value <= endValue;
 }
+
+export function formatDuration(start, end) {
+  const startDate = new Date(start);
+  const endDate = new Date(end);
+  if ([startDate, endDate].some((value) => Number.isNaN(value.getTime()))) return '';
+  const diffMs = Math.max(0, endDate.getTime() - startDate.getTime());
+  const totalMinutes = Math.round(diffMs / 60000);
+  if (totalMinutes < 60) {
+    return `${totalMinutes} min`;
+  }
+  const hours = Math.floor(totalMinutes / 60);
+  const minutes = totalMinutes % 60;
+  return minutes ? `${hours}h ${minutes}m` : `${hours}h`;
+}

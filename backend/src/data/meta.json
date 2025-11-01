@@ -1,0 +1,13 @@
+{
+  "counters": {
+    "users": 3,
+    "assets": 14,
+    "visits": 10,
+    "tasks": 30,
+    "schedules": 3,
+    "logs": 20,
+    "incidents": 6
+  },
+  "createdAt": "2025-10-30T17:31:43.713Z",
+  "updatedAt": "2025-10-31T00:00:00Z"
+}

@@ -1,7 +1,53 @@
+/* stylelint-disable at-rule-no-unknown */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* stylelint-enable at-rule-no-unknown */
+
+:root {
+  --color-bg: #f8fafc;
+  --color-bg-muted: #eef2f6;
+  --color-surface: #ffffff;
+  --color-border: #d7e0ea;
+  --color-text: #0f172a;
+  --color-text-soft: #475569;
+  --color-accent: #0284c7;
+  --color-accent-soft: #bae6fd;
+}
+
+[data-theme='dark'] {
+  --color-bg: #0f172a;
+  --color-bg-muted: #1e293b;
+  --color-surface: #111c34;
+  --color-border: #1e293b;
+  --color-text: #f8fafc;
+  --color-text-soft: #cbd5f5;
+  --color-accent: #38bdf8;
+  --color-accent-soft: #0f5d99;
+}
+
+.bg-surface {
+  background-color: var(--color-surface);
+}
+
+.bg-muted {
+  background-color: var(--color-bg-muted);
+}
+
+.text-soft {
+  color: var(--color-text-soft);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.border-base {
+  border-color: var(--color-border);
+}
 
 body {
-  @apply bg-gray-50 text-gray-900;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.25s ease, color 0.25s ease;
 }

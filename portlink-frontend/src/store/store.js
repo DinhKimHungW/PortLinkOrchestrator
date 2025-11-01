@@ -5,6 +5,7 @@ import logReducer from './slices/logSlice';
 import kpiReducer from './slices/kpiSlice';
 import assetReducer from './slices/assetSlice';
 import visitReducer from './slices/visitSlice';
+import incidentReducer from './slices/incidentSlice';
 
 const store = configureStore({
   reducer: {
@@ -14,6 +15,7 @@ const store = configureStore({
     kpis: kpiReducer,
     assets: assetReducer,
     visits: visitReducer,
+    incidents: incidentReducer,
   },
 });
 

@@ -1,0 +1,81 @@
+[
+  {
+    "incidentId": 1,
+    "type": "ShipDelay",
+    "affected": {
+      "visitId": 4,
+      "assetId": 1
+    },
+    "delayMinutes": 30,
+    "reason": "Heavy fog at channel entrance",
+    "status": "Resolved",
+    "createdAt": "2025-10-29T07:10:00Z",
+    "updatedAt": "2025-10-29T09:45:00Z",
+    "reportedBy": 2
+  },
+  {
+    "incidentId": 2,
+    "type": "CraneDown",
+    "affected": {
+      "assetId": 6
+    },
+    "delayMinutes": 45,
+    "reason": "Hydraulic leak detected on boom cylinder",
+    "status": "InProgress",
+    "createdAt": "2025-10-29T12:05:00Z",
+    "updatedAt": "2025-10-29T12:45:00Z",
+    "reportedBy": 2
+  },
+  {
+    "incidentId": 3,
+    "type": "BerthMaintenance",
+    "affected": {
+      "assetId": 3
+    },
+    "delayMinutes": 0,
+    "reason": "Planned fender inspection",
+    "status": "Open",
+    "createdAt": "2025-10-27T18:30:00Z",
+    "updatedAt": "2025-10-27T18:30:00Z",
+    "reportedBy": 1
+  },
+  {
+    "incidentId": 4,
+    "type": "Weather",
+    "affected": {
+      "visitId": 8
+    },
+    "delayMinutes": 60,
+    "reason": "High winds keeping pilot boats on standby",
+    "status": "Open",
+    "createdAt": "2025-10-29T19:20:00Z",
+    "updatedAt": "2025-10-29T19:20:00Z",
+    "reportedBy": 2
+  },
+  {
+    "incidentId": 5,
+    "type": "ShipDelay",
+    "affected": {
+      "visitId": 2
+    },
+    "delayMinutes": 15,
+    "reason": "Pilot boarding late due to traffic",
+    "status": "Resolved",
+    "createdAt": "2025-10-29T08:05:00Z",
+    "updatedAt": "2025-10-29T08:50:00Z",
+    "reportedBy": 1
+  },
+  {
+    "incidentId": 6,
+    "type": "CraneDown",
+    "affected": {
+      "assetId": 4
+    },
+    "delayMinutes": 20,
+    "reason": "Sensor calibration triggered emergency stop",
+    "status": "Resolved",
+    "createdAt": "2025-10-28T10:15:00Z",
+    "updatedAt": "2025-10-28T11:45:00Z",
+    "reportedBy": 2
+  }
+]

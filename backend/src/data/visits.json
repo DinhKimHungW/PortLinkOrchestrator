@@ -1,0 +1,72 @@
+[
+  {
+    "visitId": 1,
+    "shipName": "MV Horizon",
+    "eta_original": "2025-10-29T05:30:00Z",
+    "eta_actual": "2025-10-29T05:45:00Z",
+    "status": "Docked"
+  },
+  {
+    "visitId": 2,
+    "shipName": "MV Pacific Star",
+    "eta_original": "2025-10-29T08:15:00Z",
+    "eta_actual": "2025-10-29T08:20:00Z",
+    "status": "Berthing"
+  },
+  {
+    "visitId": 3,
+    "shipName": "MV Aurora",
+    "eta_original": "2025-10-29T11:00:00Z",
+    "eta_actual": null,
+    "status": "Scheduled"
+  },
+  {
+    "visitId": 4,
+    "shipName": "MV Baltic Wind",
+    "eta_original": "2025-10-29T13:00:00Z",
+    "eta_actual": "2025-10-29T13:45:00Z",
+    "status": "Delayed"
+  },
+  {
+    "visitId": 5,
+    "shipName": "MV Coral Reef",
+    "eta_original": "2025-10-29T14:10:00Z",
+    "eta_actual": "2025-10-29T14:05:00Z",
+    "status": "Docked"
+  },
+  {
+    "visitId": 6,
+    "shipName": "MV Delta Sky",
+    "eta_original": "2025-10-29T17:00:00Z",
+    "eta_actual": null,
+    "status": "Approaching"
+  },
+  {
+    "visitId": 7,
+    "shipName": "MV Emerald Dawn",
+    "eta_original": "2025-10-29T18:40:00Z",
+    "eta_actual": null,
+    "status": "Scheduled"
+  },
+  {
+    "visitId": 8,
+    "shipName": "MV Fjord Spirit",
+    "eta_original": "2025-10-29T20:10:00Z",
+    "eta_actual": null,
+    "status": "Scheduled"
+  },
+  {
+    "visitId": 9,
+    "shipName": "MV Glacial Bay",
+    "eta_original": "2025-10-29T22:00:00Z",
+    "eta_actual": null,
+    "status": "Anchored"
+  },
+  {
+    "visitId": 10,
+    "shipName": "MV Horizon II",
+    "eta_original": "2025-10-30T02:30:00Z",
+    "eta_actual": null,
+    "status": "Planned"
+  }
+]
